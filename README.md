@@ -21,3 +21,9 @@
 ## External Dependencies
 
 - [react-fontawesome](https://www.npmjs.com/package/@fortawesome/react-fontawesome) : Integration of React with [Font Awesome](https://fontawesome.com/).
+
+## Author
+
+[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)
+
+[![Twitter Badge](https://img.shields.io/twitter/follow/Vinit_Shahdeo.svg?style=social)](https://twitter.com/Vinit_Shahdeo)
