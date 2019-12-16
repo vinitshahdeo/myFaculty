@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import facultiesInfo from './faculties';
+import facultiesInfo from './data/faculties';
 import Profile from './Profile';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
