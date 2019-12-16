@@ -2,6 +2,8 @@
 
 ### A [React](https://reactjs.org/) app with autocomplete suggestions to search faculty details of [VIT University](https://vit.ac.in/) Vellore.
 
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/myFaculty?logo=github)](https://github.com/vinitshahdeo/myFaculty/blob/master/LICENSE) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/myFaculty?logo=react)
+
 ![MyFaculty Demo](./demo/myFacultyDemo.gif)
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
