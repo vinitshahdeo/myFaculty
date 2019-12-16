@@ -26,6 +26,6 @@
 
 [![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/myFaculty/links/7)
 
-[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)
+**[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
 
 [![Twitter Badge](https://img.shields.io/twitter/follow/Vinit_Shahdeo.svg?style=social)](https://twitter.com/Vinit_Shahdeo)
