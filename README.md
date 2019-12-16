@@ -1,8 +1,12 @@
+# MyFaculty
+
+A React app with autocomplete suggestions to search faculty details of VIT University Vellore.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Quick Start
 
-- `npm install` : Installs the external depencies used.
+- `npm install` : Installs the external dependencies used.
 
 - `npm start` : Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
