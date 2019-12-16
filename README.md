@@ -1,8 +1,8 @@
 # MyFaculty
 
-A React app with autocomplete suggestions to search faculty details of VIT University Vellore.
+### A [React](https://reactjs.org/) app with autocomplete suggestions to search faculty details of [VIT University](https://vit.ac.in/) Vellore.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Quick Start
 
