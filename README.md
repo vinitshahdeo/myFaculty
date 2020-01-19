@@ -1,4 +1,4 @@
-# MyFaculty
+# MyFaculty [![Netlify Status](https://api.netlify.com/api/v1/badges/a2e4bc74-9c7e-4b0e-bfbc-ae3b92c2dc5c/deploy-status)](https://app.netlify.com/sites/myfaculty/deploys)
 
 ### A [React](https://reactjs.org/) app with autocomplete suggestions to search faculty details of [VIT University](https://vit.ac.in/) Vellore.
 
@@ -7,6 +7,8 @@
 ![MyFaculty Demo](./demo/myFacultyDemo.gif)
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+> **Click [here](https://myfaculty.netlify.com/) for live demo.**
 
 ## Quick Start
 
