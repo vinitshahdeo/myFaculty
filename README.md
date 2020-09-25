@@ -4,7 +4,6 @@
 
 [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/myFaculty?logo=github)](https://github.com/vinitshahdeo/myFaculty/blob/master/LICENSE) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/myFaculty?logo=react) [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/vinitshahdeo/myFaculty?logo=codefactor&logoColor=white)](https://www.codefactor.io/repository/github/vinitshahdeo/myfaculty)
 
-![MyFaculty Demo](./demo/myFacultyDemo.gif)
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
