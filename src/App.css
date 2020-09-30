@@ -30,7 +30,9 @@
     transform: rotate(360deg);
   }
 }
+
 li {
+
     list-style: none;
     background-color: rgba(0, 0, 0, 0.05);
     background-image:
@@ -53,7 +55,7 @@ li {
     width: 100%;
     box-sizing: border-box;
     font-size: 19px;
-    padding: 5px;
+    padding: 10px;
     font-family: calibri light;
     margin-bottom: 10px;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -72,7 +74,7 @@ li {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     box-shadow: inset 1px 1px 0 white;
-    max-height: 450px;
+    max-height: 550px;
 }
 
 #facultyInfo {
