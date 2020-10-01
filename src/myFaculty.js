@@ -5,9 +5,9 @@ import Profile from './Profile';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-export default class AutoCompletedText extends React.Component{
+export default class AutoCompletedText extends React.Component {
 
-    constructor(props){
+    constructor(props) {
         super(props)
         this.state = {
             suggestions: [],
@@ -20,7 +20,7 @@ export default class AutoCompletedText extends React.Component{
     onTextChange = (e) => {
         const value = e.target.value;
         let suggestions = [];
-        if(value.length > 0){
+        if (value.length > 0) {
             const regex = new RegExp(`^${value}`, 'i');
             suggestions = facultiesInfo.sort().filter(v => regex.test(v.FACULTY));
             // suggestions = suggestions.map((value) => value.FACULTY);
@@ -45,7 +45,7 @@ export default class AutoCompletedText extends React.Component{
 
     renderSuggestions = () => {
         let { suggestions } = this.state;
-        if(suggestions.length === 0){
+        if (suggestions.length === 0) {
             return null;
         }
         return (
@@ -56,16 +56,16 @@ export default class AutoCompletedText extends React.Component{
             </ul>
         );
     }
-    
+
     render() {
-        const { text, suggestions } = this.state;
-        return(
+        const { text, suggestions, showProfile, selectedFaculty } = this.state;
+        return (
             <div id="notebooks">
                 <h2><FontAwesomeIcon icon={faSearch} /> Search Your Faculty</h2>
-                <input id="query" type="text" onChange={this.onTextChange} value={text}/>
+                <input id="query" type="text" onChange={this.onTextChange} value={text} />
                 {this.renderSuggestions()}
-                {this.state.showProfile ? <Profile {...this.state.selectedFaculty}/> : <div />}
-                <span>Suggestions: {suggestions.length}</span>
+                {showProfile ? <Profile {...selectedFaculty} /> : <div />}
+                {showProfile === true ? null : <span>Suggestions: {suggestions.length}</span>}
             </div>
         );
     }
