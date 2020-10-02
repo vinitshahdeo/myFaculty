@@ -72,7 +72,7 @@ li {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     box-shadow: inset 1px 1px 0 white;
-    max-height: 450px;
+    max-height: 500px;
 }
 
 #facultyInfo {
@@ -84,7 +84,7 @@ ul {
     margin: 0 auto;
     padding: 0;
     max-height: 390px;
-    overflow-y: auto;
+    overflow-y: scroll;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 5px 5px 0 5px;
     border-left: none;
