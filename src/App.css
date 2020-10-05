@@ -75,9 +75,9 @@ li {
     max-height: 450px;
 }
 
-#facultyInfo {
-  padding: 2px;
-  margin: 5px;
+.facultyInfo {
+  padding: 5px;
+  margin: 10px 0;
 }
 
 ul {
