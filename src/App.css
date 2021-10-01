@@ -63,9 +63,6 @@ li {
 
 #notebooks {
     background: whitesmoke;
-    position: absolute;
-    left: 50%;
-    margin-left: -175px;
     margin-top: 35px;
     width: 350px;
     padding: 15px;
@@ -83,7 +80,7 @@ li {
 ul {
     margin: 0 auto;
     padding: 0;
-    max-height: 390px;
+    max-height: 280px;
     overflow-y: auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 5px 5px 0 5px;
@@ -93,14 +90,12 @@ ul {
 
 #notebooks span {
     display: block;
-    position: absolute;
     background: #FFD32E;
-    bottom: -35px;
-    left: -1px;
-    width: 360px;
     border-radius: 0 0 5px 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 350px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
 }

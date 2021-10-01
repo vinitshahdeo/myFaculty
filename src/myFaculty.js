@@ -49,7 +49,7 @@ export default class AutoCompletedText extends React.Component{
             return null;
         }
         return (
-            <ul >
+            <ul>
                 {
                     suggestions.map((item, index) => (<li key={index} onClick={() => this.selectedText(item)}>{item.FACULTY}</li>))
                 }
@@ -60,12 +60,19 @@ export default class AutoCompletedText extends React.Component{
     render() {
         const { text, suggestions } = this.state;
         return(
-            <div id="notebooks">
-                <h2><FontAwesomeIcon icon={faSearch} /> Search Your Faculty</h2>
-                <input id="query" type="text" onChange={this.onTextChange} value={text}/>
-                {this.renderSuggestions()}
-                {this.state.showProfile ? <Profile {...this.state.selectedFaculty}/> : <div />}
-                <span>Suggestions: {suggestions.length}</span>
+            <div style = {{
+                display:"flex",
+                flex:1,
+                justifyContent:"center",
+                alignItems:"center",
+            }}>
+                <div id="notebooks">
+                    <h2><FontAwesomeIcon icon={faSearch} /> Search Your Faculty</h2>
+                    <input id="query" type="text" onChange={this.onTextChange} value={text}/>
+                    {this.renderSuggestions()}
+                    {this.state.showProfile ? <Profile {...this.state.selectedFaculty}/> : <div />}
+                    <span>Suggestions: {suggestions.length}</span>
+                </div>
             </div>
         );
     }
