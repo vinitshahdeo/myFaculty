@@ -29662,6 +29662,15 @@ var facultiesInfo = [{
     "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "KOTA SANDEEP"
-}];
+},
+    {
+    "CODE": "FAM1254",
+    "TITLE": "Architectural conversation",
+    "TYPE": "EPJ",
+    "CREDITS": "1",
+    "VENUE": "NIL",
+    "SLOT": "NIL",
+    "FACULTY":"AMBER SHUKLA ",
+    }];
 
 export default facultiesInfo;
