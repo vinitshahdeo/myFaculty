@@ -75,6 +75,17 @@ li {
     max-height: 450px;
 }
 
+@media (max-width: 767px) {
+  #notebooks {
+    position: relative;
+    margin: 10px;
+    left: auto;
+    width: auto;
+    box-sizing: border-box;
+    max-height: none;
+  } 
+}
+
 #facultyInfo {
   padding: 2px;
   margin: 5px;
@@ -103,4 +114,15 @@ ul {
     padding: 10px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 767px) {
+  #notebooks span {
+    left: auto;
+    bottom: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+  }
 }
