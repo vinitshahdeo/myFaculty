@@ -58,14 +58,14 @@ export default class AutoCompletedText extends React.Component{
     }
     
     render() {
-        const { text, suggestions } = this.state;
-        return(
+        const { text, suggestions, showProfile, selectedFaculty } = this.state;
+        return (
             <div id="notebooks">
                 <h2><FontAwesomeIcon icon={faSearch} /> Search Your Faculty</h2>
-                <input id="query" type="text" onChange={this.onTextChange} value={text}/>
+                <input id="query" placeholder="Type Your Faculty" type="text" onChange={this.onTextChange} value={text} />
                 {this.renderSuggestions()}
-                {this.state.showProfile ? <Profile {...this.state.selectedFaculty}/> : <div />}
-                <span>Suggestions: {suggestions.length}</span>
+                {showProfile ? <Profile {...selectedFaculty} /> : <div />}
+                {showProfile === true ? null : <span>Suggestions: {suggestions.length}</span>}
             </div>
         );
     }
